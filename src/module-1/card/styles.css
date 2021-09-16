@@ -1,7 +1,7 @@
 .frame {
     display: grid;
     grid-template-columns: 400px;
-    grid-template-rows:  334px 30px 34px 34px 45px;
+    grid-template-rows:  334px 31px 38px 38px 45px;
     background: #FFFFFF;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.135216);
     border-radius: 8px;
@@ -25,24 +25,19 @@
     background: #6F64F8;
     border-radius: 3px;
     margin-left: 25px;
-    place-items: center;
 }
 
 .grade_numbers {
-    font-family: Montserrat, serif;
-    font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 17px;
     color: #FFFFFF;
-    text-align: center;
+    grid-template-columns: 25px 20px;
 }
 
 .price {
-    display: flex;
+    display: grid;
     align-items: center;
-    font-family: Montserrat, serif;
-    font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
@@ -53,8 +48,6 @@
 }
 
 .mame {
-    font-family: Montserrat, serif;
-    font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
@@ -64,8 +57,6 @@
 }
 
 .note {
-    font-family: Montserrat, serif;
-    font-style: normal;
     font-weight: 300;
     font-size: 12px;
     line-height: 14px;
@@ -79,33 +70,35 @@
 }
 
 .button1 {
-    font-family: Montserrat, serif;
-    font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 18px;
     color: #2C2C2C;
     background: #EDEDED;
     border-radius: 0 0 0 8px;
-    border: 0;
+    border: none;
+    grid-template-columns: 1px 100px;
 }
 
 .button2 {
-    font-family: Montserrat, serif;
-    font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 18px;
     color: #FFFFFF;
     background: #6F64F8;
     border-radius: 0 0 8px 0;
-    border: 0;
+    border: none;
+    grid-template-columns: 35px 100px;
 }
 
-.star_icon{
-    padding-left: 10px;
+.center_text_and_svg {
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
 }
 
-.heart_cart_icon {
-    padding-right: 8px;
+.set_font {
+    font-family: Montserrat, serif;
+    font-style: normal;
 }
