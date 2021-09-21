@@ -23,7 +23,7 @@ html {
     height: 126px;
     mix-blend-mode: darken;
     display: grid;
-    grid-template-columns: 6% 21%;
+    grid-template-columns: 6% 94%
 }
 
 .header-name-icon {
@@ -34,7 +34,6 @@ html {
 }
 
 .header-name-name {
-    margin-left: 2%;
     font-weight: 600;
     font-size: 48px;
     line-height: 27px;
@@ -44,7 +43,7 @@ html {
 .header-menu {
     height: 49px;
     display: grid;
-    grid-template-columns: 2.5% 0.5% 0.5% 6.5% 0.5% 0.5% 6%;
+    grid-template-columns: 2.5% 0.5% 0.5% 7% 0.5% 0.5% 7%;
     margin-left: 0.8%;
 }
 
@@ -249,7 +248,7 @@ html {
     align-items: center;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 1200px) {
     .grid_container_big {
         grid-template-columns: 50% 50%;
         grid-template-rows: 486px 486px 486px 486px 486px;
@@ -257,15 +256,26 @@ html {
     .main-part-left {
         display: none;
     }
+    .header-name {
+        grid-template-columns: 16% 84%
+    }
+    .header-menu {
+        grid-template-columns: 5% 1% 1% 12% 1% 1% 12%;
+        margin-left: 0.8%;
+    }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 720px) {
     .grid_container_big {
         grid-template-columns: 100%;
         grid-template-rows: 486px 486px 486px 486px 486px 486px 486px 486px 486px;
     }
     .main-part-left {
         display: none;
+    }
+    .header-menu {
+        grid-template-columns: 5% 1% 1% 15% 1% 1% 15%;
+        margin-left: 0.8%;
     }
 }
 

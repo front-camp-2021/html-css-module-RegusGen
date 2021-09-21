@@ -4,12 +4,12 @@
 }
 .frame {
     display: grid;
-    grid-template-columns: 400px;
+    grid-template-columns: 100%;
     grid-template-rows:  334px 31px 38px 38px 45px;
     background: #FFFFFF;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.135216);
     border-radius: 8px;
-    max-width: 400px;
+    max-width: 100%;
 }
 
 .image {
@@ -19,16 +19,16 @@
 
 .grade_price {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 50% 50%;
 }
 
 .grade {
     display: grid;
-    width: 65px;
+    width: 17%;
     height: 30px;
     background: #6F64F8;
     border-radius: 3px;
-    margin-left: 25px;
+    margin-left: 6%;
 }
 
 .grade_numbers {
@@ -36,7 +36,7 @@
     font-size: 14px;
     line-height: 17px;
     color: #FFFFFF;
-    grid-template-columns: 25px 20px;
+    grid-template-columns: 15% 10%;
 }
 
 .price {
@@ -47,7 +47,7 @@
     line-height: 21px;
     color: #2C2C2C;
     text-align: end;
-    padding-right: 20px;
+    padding-right: 6%;
     justify-content: flex-end;
 }
 
@@ -56,7 +56,7 @@
     font-size: 16px;
     line-height: 19px;
     color: #2C2C2C;
-    padding-left: 24px;
+    padding-left: 3%;
     align-self: end;
 }
 
@@ -65,12 +65,12 @@
     font-size: 12px;
     line-height: 14px;
     color: #2C2C2C;
-    padding-left: 24px;
+    padding-left: 3%;
 }
 
 .button_wrapper {
     display: grid;
-    grid-template-columns: 200px 200px;
+    grid-template-columns: 50% 50%;
 }
 
 .button {

@@ -1,9 +1,8 @@
 .grid_container {
     display: grid;
-    grid-template-columns: 400px 400px 400px;
+    grid-template-columns: 32% 32% 32%;
     grid-template-rows: 486px 486px;
     grid-gap: 28px;
-    /*margin-left: 38px;*/
     background: #F9F9F9;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.0778245);
     max-width: 1300px;
@@ -22,7 +21,7 @@
 }
 .frame {
     display: grid;
-    grid-template-columns: 400px;
+    grid-template-columns: 100%;
     grid-template-rows:  334px 31px 38px 38px 45px;
     background: #FFFFFF;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.135216);
