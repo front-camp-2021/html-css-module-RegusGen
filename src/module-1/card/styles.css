@@ -2,6 +2,11 @@
     font-family: Montserrat, serif;
     font-style: normal;
 }
+
+.frame-big {
+    max-width: 400px;
+}
+
 .frame {
     display: grid;
     grid-template-columns: 100%;
@@ -9,7 +14,7 @@
     background: #FFFFFF;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.135216);
     border-radius: 8px;
-    max-width: 100%;
+    width: 100%;
 }
 
 .image {
@@ -24,7 +29,7 @@
 
 .grade {
     display: grid;
-    width: 17%;
+    width: 33%;
     height: 30px;
     background: #6F64F8;
     border-radius: 3px;
@@ -36,7 +41,7 @@
     font-size: 14px;
     line-height: 17px;
     color: #FFFFFF;
-    grid-template-columns: 15% 10%;
+    grid-template-columns: 45% 20%;
 }
 
 .price {
